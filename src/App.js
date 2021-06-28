@@ -1,10 +1,8 @@
-
+import Topbar from './topbar/Topbar.jsx'
 
 function App() {
   return (
-    <div className="App">
-      Sentimental Blog
-    </div>
+    <Topbar />
   );
 }
 
