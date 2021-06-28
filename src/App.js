@@ -1,9 +1,13 @@
-import Topbar from './topbar/Topbar.jsx'
+import Topbar from './topbar/Topbar'
+import Home from './pages/home/Home'
 
 function App() {
   return (
-    <Topbar />
-  );
+    <>
+      <Topbar />
+      <Home />
+    </>
+  )
 }
 
 export default App;
